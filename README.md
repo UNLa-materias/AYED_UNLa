@@ -4,9 +4,9 @@
 
 # Algoritmos y Estructuras de Datos en C
 
-![GitHub repo size](https://img.shields.io/github/repo-size/USUARIO/AYED_UNLa)
-![GitHub last commit](https://img.shields.io/github/last-commit/USUARIO/AYED_UNLa)
-![GitHub license](https://img.shields.io/github/license/USUARIO/AYED_UNLa)
+![GitHub repo size](github.com/NicolasPerezUNLaSMN/AYED_UNLa)
+![GitHub last commit](github.com/NicolasPerezUNLaSMN/AYED_UNLa)
+![GitHub license](github.com/NicolasPerezUNLaSMN/AYED_UNLa)
 
 ## Universidad Nacional de Lanús  
 ### Departamento de Desarrollo Productivo y Tecnológico  
