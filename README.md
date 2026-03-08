@@ -30,6 +30,9 @@ https://www.youtube.com/playlist?list=PLbwWly6AYXqchZQfRVJrsby-rjWSu-Ys9
 
 ## 📝 Material de apoyo
 
+📄 Guia de ejercicios: 
+https://docs.google.com/document/d/1RpEmn2EjmyE__GoCwb3nEvmxRwlwAxgsYdGKa20HS2I/edit?tab=t.0
+
 📄 Resumen de programación en C:  
 https://docs.google.com/document/d/1SV0VMDPm_gtqdYUxSOr8-3iuQ1vX1puABFNjyUm7hsM/edit?tab=t.0
 
