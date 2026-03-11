@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://upload.wikimedia.org/wikipedia/commons/7/75/Logo_UNLa.png](https://www.unla.edu.ar/images/logo_web.jpg)" width="200">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Logo_UNLa.png](https://www.unla.edu.ar/images/logo_web.jpg" width="200">
 </p>
 
 # Algoritmos y Estructuras de Datos en C
