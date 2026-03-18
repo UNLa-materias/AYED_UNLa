@@ -1,0 +1,49 @@
+# ---- OS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# ---- Editors / IDEs ----
+.idea/
+.vscode/
+*.code-workspace
+
+# Visual Studio / MSVC
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# ---- C / C++ build outputs (only inside folders named "c") ----
+**/c/**/*.o
+**/c/**/*.obj
+**/c/**/*.a
+**/c/**/*.lib
+**/c/**/*.so
+**/c/**/*.dylib
+**/c/**/*.dll
+**/c/**/*.exe
+**/c/**/*.out
+**/c/**/*.app
+**/c/**/*.d
+
+**/c/**/bin/
+**/c/**/obj/
+**/c/**/Debug/
+**/c/**/Release/
+**/c/**/build/
+
+# ---- Go build/test outputs (only inside folders named "golang") ----
+**/golang/**/*.test
+**/golang/**/*.out
+**/golang/**/coverage.out
+
+# Go workspace/tooling files (if they appear under golang/)
+**/golang/**/go.work
+**/golang/**/go.work.sum
+
