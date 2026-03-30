@@ -1,13 +1,20 @@
-# ---- OS ----
+# ================================
+# OS
+# ================================
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon?
+Thumbs.db
 
-# ---- Editors / IDEs ----
+# ================================
+# EDITORES / IDEs
+# ================================
 .idea/
 .vscode/
 *.code-workspace
+*.swp
+*.swo
 
 # Visual Studio / MSVC
 .vs/
@@ -19,7 +26,21 @@ Icon?
 *.VC.VC.opendb
 ipch/
 
-# ---- C / C++ build outputs (only inside folders named "c") ----
+# ================================
+# C / C++
+# ================================
+bin/
+obj/
+*.exe
+*.o
+*.a
+*.so
+*.out
+*.depend
+*.layout
+*.cbp
+
+# Version más específica (carpetas tipo /c/)
 **/c/**/*.o
 **/c/**/*.obj
 **/c/**/*.a
@@ -38,12 +59,23 @@ ipch/
 **/c/**/Release/
 **/c/**/build/
 
-# ---- Go build/test outputs (only inside folders named "golang") ----
+# ================================
+# GO
+# ================================
+/go-build/
+go.sum
+*.test
+/vendor/
+
+# Ejecutables comunes
+**/main
+**/main.exe
+**/app
+**/app.exe
+
+# Version estructurada (carpetas golang)
 **/golang/**/*.test
 **/golang/**/*.out
 **/golang/**/coverage.out
-
-# Go workspace/tooling files (if they appear under golang/)
 **/golang/**/go.work
 **/golang/**/go.work.sum
-
