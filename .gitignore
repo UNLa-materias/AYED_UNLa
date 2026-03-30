@@ -1,10 +1,34 @@
-# IDEs y herramientas
+# ================================
+# OS
+# ================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+
+# ================================
+# EDITORES / IDEs
+# ================================
 .idea/
 .vscode/
+*.code-workspace
 *.swp
 *.swo
 
+# Visual Studio / MSVC
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# ================================
 # C / C++
+# ================================
 bin/
 obj/
 *.exe
@@ -16,17 +40,42 @@ obj/
 *.layout
 *.cbp
 
-# Go
+# Version más específica (carpetas tipo /c/)
+**/c/**/*.o
+**/c/**/*.obj
+**/c/**/*.a
+**/c/**/*.lib
+**/c/**/*.so
+**/c/**/*.dylib
+**/c/**/*.dll
+**/c/**/*.exe
+**/c/**/*.out
+**/c/**/*.app
+**/c/**/*.d
+
+**/c/**/bin/
+**/c/**/obj/
+**/c/**/Debug/
+**/c/**/Release/
+**/c/**/build/
+
+# ================================
+# GO
+# ================================
 /go-build/
 go.sum
 *.test
 /vendor/
-# Ejecutables de Go (generalmente nombres de carpetas o main)
+
+# Ejecutables comunes
 **/main
 **/main.exe
 **/app
 **/app.exe
 
-# OS Files
-.DS_Store
-Thumbs.db
+# Version estructurada (carpetas golang)
+**/golang/**/*.test
+**/golang/**/*.out
+**/golang/**/coverage.out
+**/golang/**/go.work
+**/golang/**/go.work.sum
