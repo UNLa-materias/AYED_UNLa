@@ -1,0 +1,32 @@
+# IDEs y herramientas
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# C / C++
+bin/
+obj/
+*.exe
+*.o
+*.a
+*.so
+*.out
+*.depend
+*.layout
+*.cbp
+
+# Go
+/go-build/
+go.sum
+*.test
+/vendor/
+# Ejecutables de Go (generalmente nombres de carpetas o main)
+**/main
+**/main.exe
+**/app
+**/app.exe
+
+# OS Files
+.DS_Store
+Thumbs.db
